@@ -17,7 +17,7 @@ const BBS_ADDR = 'bbs.everybbs.xyz';
 const BBS_PORT = 9000;
 const WEB_ADDR = 'bbs.everybbs.xyz';
 const WEB_PORT = 80;
-const HTTP_PORT = 123456;
+const HTTP_PORT = 80;
 
 io.on('connection', function(ioSocket) {
   console.error('Client connected:', ioSocket.client.conn.remoteAddress);
