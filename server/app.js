@@ -14,10 +14,10 @@ const httpServer = http.createServer(app);
 const io = require('socket.io')(httpServer);
 
 const BBS_ADDR = 'bbs.everybbs.xyz';
-const BBS_PORT = 9000;
+const BBS_PORT = 23;
 const WEB_ADDR = 'bbs.everybbs.xyz';
 const WEB_PORT = 80;
-const HTTP_PORT = 443;
+const HTTP_PORT = 80;
 
 io.on('connection', function(ioSocket) {
   console.error('Client connected:', ioSocket.client.conn.remoteAddress);
