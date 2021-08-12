@@ -1,1 +1,1 @@
-worker:  yarn install
+worker:  yarn serve
